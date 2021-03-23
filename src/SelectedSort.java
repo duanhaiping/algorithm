@@ -1,12 +1,12 @@
-public class sort {
+public class SelectedSort {
     public static void main(String[] args) {
         Comparable[] a = new Comparable[]{1,3,6,2,7,90,123,44,5,45};
-        SelectedSort(a);
+        sort(a);
         for (Comparable ai:a) {
             System.out.println(ai);
         }
     }
-    private static  void SelectedSort(Comparable[] a) {
+    private static  void sort(Comparable[] a) {
         // 选择排序是最简单的一种排序，其原理就是先假定第一个是最小的数，在剩下的数组中，依次和第一个数字比较，
         // 每次比较，如果比当前的最小数小，就交换最小数
         // 利用双层排序。最后要遍历的数据，逐步减少
